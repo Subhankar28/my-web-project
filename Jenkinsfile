@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        GIT_REPO = 'https://github.com/your-username/my-web-project.git'  // Replace with your GitHub repository URL
-        BRANCH_NAME = 'master'  // Replace with your branch name if it's different
+        GIT_REPO = 'https://github.com/Subhankar28/my-web-project.git'  // Replace with your GitHub repository URL
+        BRANCH_NAME = 'main'  // Replace with your branch name if it's different
     }
 
     stages {
